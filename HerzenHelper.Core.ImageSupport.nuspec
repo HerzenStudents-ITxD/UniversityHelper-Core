@@ -8,7 +8,7 @@
         <owners>HerzenHelper Team</owners>
         <projectUrl>https://github.com/LT-Students/HerzenHelper-Core</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Library used in the Herzen Helper project.</description>
+        <description>Library used in the HerzenHelper project.</description>
         <releaseNotes>
             1.0.6 - Update libs.
 
