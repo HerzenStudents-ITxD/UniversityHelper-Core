@@ -15,10 +15,10 @@ public static class ApplicationBuilderExtensions
       return app;
     }
 
-    app.UseExceptionHandler(tempApp => tempApp.Run(async context =>
-    {
-      await ExceptionsHandler.Handle(context, loggerFactory.CreateLogger("Extensions"));
-    }));
+    //app.UseExceptionHandler(tempApp => tempApp.Run(async context =>
+    //{
+    //  await ExceptionsHandler.Handle(context, loggerFactory.CreateLogger("Extensions"));
+    //}));
 
     return app;
   }
