@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.4</Version>
+
+        <TargetFramework>net7.0</TargetFramework>
+
+        <AssemblyName>HerzenHelper.Core.EndpointSupport</AssemblyName>
+        <RootNamespace>HerzenHelper.Core.EndpointSupport</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HerzenHelper.Core" Version="1.0.21" />
+        <PackageReference Include="HerzenHelper.Core.BrokerSupport" Version="1.0.8" />
+    </ItemGroup>
+
+</Project>

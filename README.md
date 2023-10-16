@@ -1,1 +1,1 @@
-# HerzenHelper-Kernel
+# HerzenHelper-Core

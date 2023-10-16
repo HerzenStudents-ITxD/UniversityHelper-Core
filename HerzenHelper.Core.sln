@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Kernel\Core.csproj", "{6CA4BE45-F24D-401B-B00A-85888D3E0F4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCFECB30-2ADC-451E-839C-32B23FAA398E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{12F33343-2D9F-4585-9B0E-02DDF4046625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0D82792-8BFB-48B4-893D-65E4A47595CB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.RedisSupport", "src\Kernel.RedisSupport\Core.RedisSupport.csproj", "{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yml", "yml", "{BE32B5DF-5B67-42C9-BDC5-39BC145EB6CB}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\main.yml = .github\workflows\main.yml
+		.github\workflows\nuget_core.yml = .github\workflows\nuget_core.yml
+		.github\workflows\nuget_core_broker.yml = .github\workflows\nuget_core_broker.yml
+		.github\workflows\nuget_core_ef.yml = .github\workflows\nuget_core_ef.yml
+		.github\workflows\nuget_core_endpoint.yml = .github\workflows\nuget_core_endpoint.yml
+		.github\workflows\nuget_core_image.yml = .github\workflows\nuget_core_image.yml
+		.github\workflows\nuget_core_redis.yml = .github\workflows\nuget_core_redis.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{5FD294CA-DC1E-436A-82D4-7D87935F7F0C}"
+	ProjectSection(SolutionItems) = preProject
+		HerzenHelper.Core.BrokerSupport.nuspec = HerzenHelper.Core.BrokerSupport.nuspec
+		HerzenHelper.Core.EFSupport.nuspec = HerzenHelper.Core.EFSupport.nuspec
+		HerzenHelper.Core.EndpointSupport.nuspec = HerzenHelper.Core.EndpointSupport.nuspec
+		HerzenHelper.Core.ImageSupport.nuspec = HerzenHelper.Core.ImageSupport.nuspec
+		HerzenHelper.Core.nuspec = HerzenHelper.Core.nuspec
+		HerzenHelper.Core.RedisSupport.nuspec = HerzenHelper.Core.RedisSupport.nuspec
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ImageSupport", "src\Kernel.ImageSupport\Core.ImageSupport.csproj", "{37C93BC8-4D62-41A3-A65A-64662B7647C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BrokerSupport", "src\Kernel.BrokerSupport\Core.BrokerSupport.csproj", "{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EndpointSupport", "src\Kernel.EndpointSupport\Core.EndpointSupport.csproj", "{46BF3A9E-B765-4254-9362-B20CB63A3CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EFSupport", "src\Kernel.EFSupport\Core.EFSupport.csproj", "{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CA4BE45-F24D-401B-B00A-85888D3E0F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA4BE45-F24D-401B-B00A-85888D3E0F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA4BE45-F24D-401B-B00A-85888D3E0F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA4BE45-F24D-401B-B00A-85888D3E0F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C93BC8-4D62-41A3-A65A-64662B7647C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C93BC8-4D62-41A3-A65A-64662B7647C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C93BC8-4D62-41A3-A65A-64662B7647C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C93BC8-4D62-41A3-A65A-64662B7647C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BF3A9E-B765-4254-9362-B20CB63A3CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BF3A9E-B765-4254-9362-B20CB63A3CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BF3A9E-B765-4254-9362-B20CB63A3CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BF3A9E-B765-4254-9362-B20CB63A3CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CA4BE45-F24D-401B-B00A-85888D3E0F4F} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{93B7EF68-ACBC-4732-AA8D-2F243A5DFB50} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{BE32B5DF-5B67-42C9-BDC5-39BC145EB6CB} = {C0D82792-8BFB-48B4-893D-65E4A47595CB}
+		{5FD294CA-DC1E-436A-82D4-7D87935F7F0C} = {C0D82792-8BFB-48B4-893D-65E4A47595CB}
+		{37C93BC8-4D62-41A3-A65A-64662B7647C0} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{46BF3A9E-B765-4254-9362-B20CB63A3CBF} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACABE25-5CB9-4CCC-BD5E-D96AC398DE04}
+	EndGlobalSection
+EndGlobal
