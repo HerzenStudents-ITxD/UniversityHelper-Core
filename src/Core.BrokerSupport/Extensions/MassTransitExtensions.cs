@@ -1,5 +1,4 @@
 ﻿using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Core.BrokerSupport.Attributes;
 using HerzenHelper.Core.BrokerSupport.Configurations;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
