@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Kernel.BrokerSupport\Core.BrokerSupport.csproj" />
+      <ProjectReference Include="..\Core.BrokerSupport\Core.BrokerSupport.csproj" />
     </ItemGroup>
 
 </Project>
