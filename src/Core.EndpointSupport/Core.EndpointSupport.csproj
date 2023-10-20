@@ -18,8 +18,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="HerzenHelper.Core" Version="1.0.21" />
+        <PackageReference Include="HerzenHelper.Core" Version="1.0.24" />
         <PackageReference Include="HerzenHelper.Core.BrokerSupport" Version="1.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core.BrokerSupport\Core.BrokerSupport.csproj" />
     </ItemGroup>
 
 </Project>
