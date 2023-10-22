@@ -2,22 +2,18 @@
 <package >
   <metadata>
     <id>HerzenHelper.Core.EndpointSupport</id>
-    <version>1.0.4</version>
+    <version>2.0.0</version>
     <title>HerzenHelper.Core.EndpointSupport</title>
     <authors>HerzenHelper Team</authors>
     <owners>HerzenHelper Team</owners>
-    <projectUrl>https://github.com/LT-Students/HerzenHelper-Core</projectUrl>
+    <projectUrl>https://github.com/herzen-helper/HerzenHelper-Core</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the HerzenHelper project.</description>
     <releaseNotes>
-        1.0.4 - Update libs.
+      2.0.0 - Initial HerzenHelper project.
 
-        Previous versions:
-				1.0.3 - Remove broker models to BrokerSupport
-        1.0.2 - Update to .NET 7.0.
-        1.0.1 - Update reference on BrokerSupport.
-        1.0.0 - Initial.
-
+      Previous versions:
+      1.0.X - Other project.
     </releaseNotes>
     <copyright>Copyright © HerzenHelper</copyright>
     <tags>HerzenHelper</tags>
