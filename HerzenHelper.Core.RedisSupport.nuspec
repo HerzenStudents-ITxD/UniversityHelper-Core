@@ -2,24 +2,18 @@
 <package >
   <metadata>
     <id>HerzenHelper.Core.RedisSupport</id>
-    <version>1.0.7</version>
+    <version>2.0.0</version>
     <title>HerzenHelper.Core.RedisSupport</title>
     <authors>HerzenHelper Team</authors>
     <owners>HerzenHelper Team</owners>
-    <projectUrl>https://github.com/LT-Students/HerzenHelper-Core</projectUrl>
+    <projectUrl>https://github.com/herzen-helper/HerzenHelper-Core</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library used in the HerzenHelper project.</description>
     <releaseNotes>
-        1.0.7 - update libs.
+      2.0.0 - Initial HerzenHelper project.
 
-        Previous versions:
-				1.0.6 - Add Skills to Cache class.
-        1.0.5 - Update to .NET 7.0.
-        1.0.4 - Add Tokens to Cache class.
-        1.0.3 - Add request name to GetRedisCacheKey methods.
-        1.0.2 - Add Clear() method to GlobalCacheRepository.
-        1.0.1 - Update Core version used in this lib.
-        1.0.0 - Initial.
+      Previous versions:
+      1.0.X - Other project.
     </releaseNotes>
     <copyright>Copyright © HerzenHelper</copyright>
     <tags>HerzenHelper</tags>

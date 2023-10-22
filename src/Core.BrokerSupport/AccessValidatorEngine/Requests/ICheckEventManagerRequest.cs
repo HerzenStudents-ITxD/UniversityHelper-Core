@@ -2,18 +2,18 @@
 
 namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
 
-public interface ICheckDepartmentManagerRequest
+public interface ICheckEventManagerRequest
 {
   Guid UserId { get; }
 
-  Guid DepartmentId { get; }
+  Guid EventId { get; }
 
-  static object CreateObj(Guid userId, Guid departmentId)
+  static object CreateObj(Guid userId, Guid eventId)
   {
     return new
     {
       UserId = userId,
-      DepartmentId = departmentId
+      EventId = eventId
     };
   }
 }

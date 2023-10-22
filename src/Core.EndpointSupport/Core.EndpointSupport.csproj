@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <Version>1.0.4</Version>
+        <Version>2.0.0</Version>
 
         <TargetFramework>net7.0</TargetFramework>
 
@@ -18,8 +18,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="HerzenHelper.Core" Version="1.0.24" />
-        <PackageReference Include="HerzenHelper.Core.BrokerSupport" Version="1.0.8" />
+        <PackageReference Include="HerzenHelper.Core" Version="2.0.0" />
+        <PackageReference Include="HerzenHelper.Core.BrokerSupport" Version="2.0.0" />
     </ItemGroup>
 
     <ItemGroup>

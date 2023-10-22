@@ -92,9 +92,9 @@ public class BaseRabbitMqConfig
   [AutoInjectRequest(typeof(ICheckTokenRequest))]
   public virtual string ValidateTokenEndpoint { get; init; }
 
-  [AutoInjectRequest(typeof(ICheckProjectManagerRequest))]
-  public virtual string CheckProjectManagerEndpoint { get; init; }
+  [AutoInjectRequest(typeof(ICheckEventManagerRequest))]
+  public virtual string CheckEventManagerEndpoint { get; init; }
 
-  [AutoInjectRequest(typeof(ICheckDepartmentManagerRequest))]
-  public virtual string CheckDepartmentManagerEndpoint { get; init; }
+  [AutoInjectRequest(typeof(ICheckCommunityManagerRequest))]
+  public virtual string CheckCommunityManagerEndpoint { get; init; }
 }

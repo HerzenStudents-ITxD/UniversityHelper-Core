@@ -20,8 +20,8 @@ public class AccessValidator : IAccessValidator
   private readonly IRequestClient<ICheckUserRightsRequest> _rcCheckRights;
   private readonly IRequestClient<ICheckUserIsAdminRequest> _rcCheckAdmin;
   private readonly IRequestClient<ICheckUserAnyRightRequest> _rcCheckAnyRights;
-  private readonly IRequestClient<ICheckProjectManagerRequest> _rcCheckProjectManager;
-  private readonly IRequestClient<ICheckDepartmentManagerRequest> _rcCheckDepartmentManager;
+  private readonly IRequestClient<ICheckEventManagerRequest> _rcCheckProjectManager;
+  private readonly IRequestClient<ICheckCommunityManagerRequest> _rcCheckDepartmentManager;
 
   private async Task<bool> IsUserAdminAsync(Guid userId)
   {
@@ -40,8 +40,8 @@ public class AccessValidator : IAccessValidator
     IRequestClient<ICheckUserRightsRequest> rcCheckRights,
     IRequestClient<ICheckUserIsAdminRequest> rcCheckAdmin,
     IRequestClient<ICheckUserAnyRightRequest> rcCheckAnyRights,
-    IRequestClient<ICheckProjectManagerRequest> rcCheckProjectManager,
-    IRequestClient<ICheckDepartmentManagerRequest> rcCheckDepartmentManager)
+    IRequestClient<ICheckEventManagerRequest> rcCheckProjectManager,
+    IRequestClient<ICheckCommunityManagerRequest> rcCheckDepartmentManager)
   {
     _rcCheckRights = rcCheckRights;
     _rcCheckAdmin = rcCheckAdmin;
@@ -139,15 +139,15 @@ public class AccessValidator : IAccessValidator
 
     switch (managerSource)
     {
-      case ManagerSource.Project:
-        return await RequestHandler.ProcessRequest<ICheckProjectManagerRequest, bool>(
+      case ManagerSource.Event:
+        return await RequestHandler.ProcessRequest<ICheckEventManagerRequest, bool>(
           _rcCheckProjectManager,
-          ICheckProjectManagerRequest.CreateObj(userId, entityId),
+          ICheckEventManagerRequest.CreateObj(userId, entityId),
           logger: _logger);
-      case ManagerSource.Department:
-        return await RequestHandler.ProcessRequest<ICheckDepartmentManagerRequest, bool>(
+      case ManagerSource.Community:
+        return await RequestHandler.ProcessRequest<ICheckCommunityManagerRequest, bool>(
           _rcCheckDepartmentManager,
-          ICheckDepartmentManagerRequest.CreateObj(userId, entityId),
+          ICheckCommunityManagerRequest.CreateObj(userId, entityId),
           logger: _logger);
       default:
         return false;
