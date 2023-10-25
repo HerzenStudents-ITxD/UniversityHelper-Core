@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HerzenHelper.Core.UnitTestSupport</id>
+    <version>2.0.0</version>
+    <title>HerzenHelper.Core.UnitTestSupport</title>
+    <authors>HerzenHelper Team</authors>
+    <owners>HerzenHelper Team</owners>
+    <projectUrl>https://github.com/herzen-helper/HerzenHelper-Core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library used in the HerzenHelper project.</description>
+    <releaseNotes>
+      2.0.0 - Initial HerzenHelper project.
+
+      Previous versions:
+      1.0.X - Other project.
+    </releaseNotes>
+    <copyright>Copyright © HerzenHelper</copyright>
+    <tags>HerzenHelper</tags>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.NET.Test.Sdk" version="16.9.4" />
+        <dependency id="Moq" version="4.16.1"/>
+        <dependency id="Moq.AutoMock" version="2.3.0" />
+        <dependency id="NUnit" version="3.13.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="artifacts\Core_redis\HerzenHelper.Core.RedisSupport.dll" target="lib\net7.0" />
+    <file src="artifacts\Core_redis\HerzenHelper.Core.RedisSupport.pdb" target="lib\net7.0" />
+  </files>
+</package>

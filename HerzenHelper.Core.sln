@@ -37,6 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{5FD294
 		HerzenHelper.Core.ImageSupport.nuspec = HerzenHelper.Core.ImageSupport.nuspec
 		HerzenHelper.Core.nuspec = HerzenHelper.Core.nuspec
 		HerzenHelper.Core.RedisSupport.nuspec = HerzenHelper.Core.RedisSupport.nuspec
+		HerzenHelper.Core.UnitTestSupport.nuspec = HerzenHelper.Core.UnitTestSupport.nuspec
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ImageSupport", "src\Core.ImageSupport\Core.ImageSupport.csproj", "{37C93BC8-4D62-41A3-A65A-64662B7647C0}"
@@ -46,6 +47,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EndpointSupport", "src\Core.EndpointSupport\Core.EndpointSupport.csproj", "{46BF3A9E-B765-4254-9362-B20CB63A3CBF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EFSupport", "src\Core.EFSupport\Core.EFSupport.csproj", "{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.UnitTestSupport", "src\Core.UnitTestSupport\Core.UnitTestSupport.csproj", "{263776FB-2A0E-45A2-B126-3D13E4A782FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +80,10 @@ Global
 		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +97,7 @@ Global
 		{4741CFEE-8B9C-4EAB-8E7E-717A2D55CEF5} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
 		{46BF3A9E-B765-4254-9362-B20CB63A3CBF} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
 		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{263776FB-2A0E-45A2-B126-3D13E4A782FC} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FACABE25-5CB9-4CCC-BD5E-D96AC398DE04}
