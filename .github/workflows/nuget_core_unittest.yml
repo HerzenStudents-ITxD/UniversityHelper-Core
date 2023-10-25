@@ -32,11 +32,11 @@ jobs:
         run: dotnet build src/Core.UnitTestSupport/Core.UnitTestSupport.csproj --no-restore --configuration Release --output ./artifacts/core_unittest
 
       - name: Test
-        run: dotnet test test/Core.UnitTestSupport.UnitTests/Core.UnitTestSupport.UnitTests.csproj --no-restore --verbosity normal
+        run: dotnet test --no-restore --verbosity normal
 
       - name: Pack nuget
         run: nuget pack HerzenHelper.Core.UnitTestSupport.nuspec -Symbols -SymbolPackageFormat snupkg -OutputDirectory ./artifacts/core_unittest
 
       - name: Push nuget
-        run: dotnet nuget push ./artifacts/core_broker/**.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET}}
+        run: dotnet nuget push ./artifacts/core_unittest/**.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET}}
 
