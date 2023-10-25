@@ -2,6 +2,6 @@
 
 public enum ManagerSource
 {
-  Project,
-  Department
+  Event,
+  Community
 }

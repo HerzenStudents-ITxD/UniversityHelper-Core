@@ -2,18 +2,18 @@
 
 namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
 
-public interface ICheckProjectManagerRequest
+public interface ICheckCommunityManagerRequest
 {
   Guid UserId { get; }
 
-  Guid ProjectId { get; }
+  Guid CommunityId { get; }
 
-  static object CreateObj(Guid userId, Guid projectId)
+  static object CreateObj(Guid userId, Guid communityId)
   {
     return new
     {
       UserId = userId,
-      ProjectId = projectId
+      CommunityId = communityId
     };
   }
 }

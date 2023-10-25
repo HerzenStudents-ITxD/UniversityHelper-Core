@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>2.0.0</Version>
+
+    <TargetFramework>net7.0</TargetFramework>
+
+    <AssemblyName>HerzenHelper.Core.BrokerSupport</AssemblyName>
+    <RootNamespace>HerzenHelper.Core.BrokerSupport</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HerzenHelper.Core" Version="2.0.0" />
+
+    <PackageReference Include="MassTransit" Version="8.0.16" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>
