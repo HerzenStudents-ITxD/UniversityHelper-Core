@@ -27,7 +27,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="artifacts\Core_unittest\HerzenHelper.Core.UnitTestSupport.dll" target="lib\net7.0" />
-    <file src="artifacts\Core_unittest\HerzenHelper.Core.UnitTestSupport.pdb" target="lib\net7.0" />
+    <file src="artifacts\core_unittest\HerzenHelper.Core.UnitTestSupport.dll" target="lib\net7.0" />
+    <file src="artifacts\core_unittest\HerzenHelper.Core.UnitTestSupport.pdb" target="lib\net7.0" />
   </files>
 </package>
