@@ -27,6 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yml", "yml", "{BE32B5DF-5B6
 		.github\workflows\nuget_core_endpoint.yml = .github\workflows\nuget_core_endpoint.yml
 		.github\workflows\nuget_core_image.yml = .github\workflows\nuget_core_image.yml
 		.github\workflows\nuget_core_redis.yml = .github\workflows\nuget_core_redis.yml
+		.github\workflows\nuget_core_unittest.yml = .github\workflows\nuget_core_unittest.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{5FD294CA-DC1E-436A-82D4-7D87935F7F0C}"
@@ -49,6 +50,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EFSupport", "src\Core.EFSupport\Core.EFSupport.csproj", "{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.UnitTestSupport", "src\Core.UnitTestSupport\Core.UnitTestSupport.csproj", "{263776FB-2A0E-45A2-B126-3D13E4A782FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.UnitTests", "test\Core.UnitTests\Core.UnitTests.csproj", "{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.RedisSupport.UnitTests", "test\Core.RedisSupport.UnitTests\Core.RedisSupport.UnitTests.csproj", "{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ImageSupport.UnitTests", "test\Core.ImageSupport.UnitTests\Core.ImageSupport.UnitTests.csproj", "{F2F21357-254B-425C-BC66-A4FC257E89C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EndpointSupport.UnitTests", "test\Core.EndpointSupport.UnitTests\Core.EndpointSupport.UnitTests.csproj", "{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BrokerSupport.UnitTests", "test\Core.BrokerSupport.UnitTests\Core.BrokerSupport.UnitTests.csproj", "{78F22C4A-6080-42C0-B59C-A8368A578B1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +95,26 @@ Global
 		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263776FB-2A0E-45A2-B126-3D13E4A782FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F21357-254B-425C-BC66-A4FC257E89C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F21357-254B-425C-BC66-A4FC257E89C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F21357-254B-425C-BC66-A4FC257E89C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F21357-254B-425C-BC66-A4FC257E89C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F22C4A-6080-42C0-B59C-A8368A578B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F22C4A-6080-42C0-B59C-A8368A578B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F22C4A-6080-42C0-B59C-A8368A578B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F22C4A-6080-42C0-B59C-A8368A578B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +129,11 @@ Global
 		{46BF3A9E-B765-4254-9362-B20CB63A3CBF} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
 		{9D7EE0D2-B351-4BC0-A43E-2EC2D30C6811} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
 		{263776FB-2A0E-45A2-B126-3D13E4A782FC} = {BCFECB30-2ADC-451E-839C-32B23FAA398E}
+		{3E1F40EF-6B63-42D7-8719-75CEF5D8A7C6} = {12F33343-2D9F-4585-9B0E-02DDF4046625}
+		{C1B1C4EC-1F92-4D4E-8615-33379D3B29FD} = {12F33343-2D9F-4585-9B0E-02DDF4046625}
+		{F2F21357-254B-425C-BC66-A4FC257E89C5} = {12F33343-2D9F-4585-9B0E-02DDF4046625}
+		{B4E20B3C-F9EE-40FD-8DC4-163F1592A1DA} = {12F33343-2D9F-4585-9B0E-02DDF4046625}
+		{78F22C4A-6080-42C0-B59C-A8368A578B1F} = {12F33343-2D9F-4585-9B0E-02DDF4046625}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FACABE25-5CB9-4CCC-BD5E-D96AC398DE04}
