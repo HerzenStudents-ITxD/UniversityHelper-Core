@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.Helpers;
+﻿using UniversityHelper.Core.Helpers;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 using System;
 
-namespace HerzenHelper.Core.EFSupport.Helpers;
+namespace UniversityHelper.Core.EFSupport.Helpers;
 
 public static class ConnectionStringHandler
 {

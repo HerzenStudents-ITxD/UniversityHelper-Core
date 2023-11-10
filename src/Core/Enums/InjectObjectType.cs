@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.Enums;
+﻿namespace UniversityHelper.Core.Enums;
 
 public enum InjectObjectType
 {

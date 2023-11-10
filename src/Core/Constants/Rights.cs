@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.Constants;
+﻿namespace UniversityHelper.Core.Constants;
 
 /// <summary>
 /// Rights give access to admin rights to the corresponding services or blocks

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace HerzenHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Responses;
+namespace UniversityHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Responses;
 
 public interface IFindParseEntitiesResponse
 {
@@ -15,7 +15,7 @@ public interface IFindParseEntitiesResponse
     Dictionary<string, List<string>> entitiesProperties = new();
 
     var asmPath = Path.GetDirectoryName(Assembly.GetCallingAssembly().Location);
-    var files = Directory.GetFiles(asmPath, "*HerzenHelper*.dll");
+    var files = Directory.GetFiles(asmPath, "*UniversityHelper*.dll");
 
     List<Assembly> assemblies = new();
 

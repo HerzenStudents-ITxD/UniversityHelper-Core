@@ -1,8 +1,8 @@
-﻿using HerzenHelper.Core.Middlewares.ApiInformation;
+﻿using UniversityHelper.Core.Middlewares.ApiInformation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Logging;
 
-namespace HerzenHelper.Core.Extensions;
+namespace UniversityHelper.Core.Extensions;
 
 public static class ApplicationBuilderExtensions
 {

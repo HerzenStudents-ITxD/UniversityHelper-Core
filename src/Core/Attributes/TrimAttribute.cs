@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.Core.Attributes;
+namespace UniversityHelper.Core.Attributes;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class TrimAttribute : Attribute

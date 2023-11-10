@@ -1,12 +1,12 @@
-﻿using HerzenHelper.Core.RedisSupport.Configurations;
-using HerzenHelper.Core.RedisSupport.Helpers.Interfaces;
+﻿using UniversityHelper.Core.RedisSupport.Configurations;
+using UniversityHelper.Core.RedisSupport.Helpers.Interfaces;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HerzenHelper.Core.RedisSupport.Helpers;
+namespace UniversityHelper.Core.RedisSupport.Helpers;
 
 public class CacheNotebook : ICacheNotebook
 {

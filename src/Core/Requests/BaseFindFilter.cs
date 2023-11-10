@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
-namespace HerzenHelper.Core.Requests;
+namespace UniversityHelper.Core.Requests;
 
 public record BaseFindFilter
 {

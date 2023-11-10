@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.Attributes;
+﻿using UniversityHelper.Core.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.RedisSupport.Helpers.Interfaces;
+namespace UniversityHelper.Core.RedisSupport.Helpers.Interfaces;
 
 [AutoInject]
 public interface IRedisHelper

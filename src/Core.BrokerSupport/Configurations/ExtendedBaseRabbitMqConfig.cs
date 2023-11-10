@@ -1,8 +1,8 @@
-﻿using HerzenHelper.Core.BrokerSupport.TextTemplateModels.Requests;
-using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Core.BrokerSupport.Configurations;
+﻿using UniversityHelper.Core.BrokerSupport.TextTemplateModels.Requests;
+using UniversityHelper.Core.BrokerSupport.Attributes;
+using UniversityHelper.Core.BrokerSupport.Configurations;
 
-namespace HerzenHelper.Core.BrokerSupport.Configurations;
+namespace UniversityHelper.Core.BrokerSupport.Configurations;
 
 public class ExtendedBaseRabbitMqConfig : BaseRabbitMqConfig
 {

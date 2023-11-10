@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
 
     <TargetFramework>net7.0</TargetFramework>
 
-    <AssemblyName>HerzenHelper.Core.UnitTestSupport</AssemblyName>
-    <RootNamespace>HerzenHelper.Core.UnitTestSupport</RootNamespace>
+    <AssemblyName>UniversityHelper.Core.UnitTestSupport</AssemblyName>
+    <RootNamespace>UniversityHelper.Core.UnitTestSupport</RootNamespace>
     <IsPackable>true</IsPackable>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
-    <PackageReference Include="Moq" Version="4.16.1"/>
+    <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="Moq.AutoMock" Version="2.3.0" />
     <PackageReference Include="NUnit" Version="3.13.1" />
   </ItemGroup>

@@ -1,5 +1,5 @@
-﻿using HerzenHelper.Core.BrokerSupport.Broker;
-using HerzenHelper.Core.Constants;
+﻿using UniversityHelper.Core.BrokerSupport.Broker;
+using UniversityHelper.Core.Constants;
 using MassTransit;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.Middlewares.Token;
+namespace UniversityHelper.Core.BrokerSupport.Middlewares.Token;
 
 /// <summary>
 /// Check JW token middleware.

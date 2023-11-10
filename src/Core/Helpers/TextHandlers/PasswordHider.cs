@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace HerzenHelper.Core.Helpers;
+namespace UniversityHelper.Core.Helpers;
 
 public static class PasswordHider
 {

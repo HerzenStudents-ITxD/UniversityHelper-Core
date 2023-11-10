@@ -1,5 +1,5 @@
-﻿using HerzenHelper.Core.ImageSupport.Helpers.Interfaces;
-using HerzenHelper.Core.Constants;
+﻿using UniversityHelper.Core.ImageSupport.Helpers.Interfaces;
+using UniversityHelper.Core.Constants;
 using Microsoft.Extensions.Logging;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using Image = SixLabors.ImageSharp.Image;
 using Rectangle = SixLabors.ImageSharp.Rectangle;
 
-namespace HerzenHelper.Core.ImageSupport.Helpers;
+namespace UniversityHelper.Core.ImageSupport.Helpers;
 
 public class ImageResizeHelper : IImageResizeHelper
 {

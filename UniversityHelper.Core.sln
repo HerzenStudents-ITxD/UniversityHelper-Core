@@ -32,13 +32,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yml", "yml", "{BE32B5DF-5B6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{5FD294CA-DC1E-436A-82D4-7D87935F7F0C}"
 	ProjectSection(SolutionItems) = preProject
-		HerzenHelper.Core.BrokerSupport.nuspec = HerzenHelper.Core.BrokerSupport.nuspec
-		HerzenHelper.Core.EFSupport.nuspec = HerzenHelper.Core.EFSupport.nuspec
-		HerzenHelper.Core.EndpointSupport.nuspec = HerzenHelper.Core.EndpointSupport.nuspec
-		HerzenHelper.Core.ImageSupport.nuspec = HerzenHelper.Core.ImageSupport.nuspec
-		HerzenHelper.Core.nuspec = HerzenHelper.Core.nuspec
-		HerzenHelper.Core.RedisSupport.nuspec = HerzenHelper.Core.RedisSupport.nuspec
-		HerzenHelper.Core.UnitTestSupport.nuspec = HerzenHelper.Core.UnitTestSupport.nuspec
+		UniversityHelper.Core.BrokerSupport.nuspec = UniversityHelper.Core.BrokerSupport.nuspec
+		UniversityHelper.Core.EFSupport.nuspec = UniversityHelper.Core.EFSupport.nuspec
+		UniversityHelper.Core.EndpointSupport.nuspec = UniversityHelper.Core.EndpointSupport.nuspec
+		UniversityHelper.Core.ImageSupport.nuspec = UniversityHelper.Core.ImageSupport.nuspec
+		UniversityHelper.Core.nuspec = UniversityHelper.Core.nuspec
+		UniversityHelper.Core.RedisSupport.nuspec = UniversityHelper.Core.RedisSupport.nuspec
+		UniversityHelper.Core.UnitTestSupport.nuspec = UniversityHelper.Core.UnitTestSupport.nuspec
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ImageSupport", "src\Core.ImageSupport\Core.ImageSupport.csproj", "{37C93BC8-4D62-41A3-A65A-64662B7647C0}"

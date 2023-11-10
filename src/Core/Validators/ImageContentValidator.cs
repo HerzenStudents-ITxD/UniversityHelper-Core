@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.Core.Validators.Interfaces;
+using UniversityHelper.Core.Validators.Interfaces;
 using System;
 
-namespace HerzenHelper.Core.Validators;
+namespace UniversityHelper.Core.Validators;
 
 public class ImageContentValidator : AbstractValidator<string>, IImageContentValidator
 {

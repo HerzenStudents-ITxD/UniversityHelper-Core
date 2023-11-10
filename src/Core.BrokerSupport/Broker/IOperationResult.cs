@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HerzenHelper.Core.BrokerSupport.Broker;
+namespace UniversityHelper.Core.BrokerSupport.Broker;
 
 /// <summary>
 /// Interface that is needed to form the response in message broker.

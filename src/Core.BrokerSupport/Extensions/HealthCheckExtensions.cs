@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.BrokerSupport.HealthChecks;
+﻿using UniversityHelper.Core.BrokerSupport.HealthChecks;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HerzenHelper.Core.BrokerSupport.Extensions;
+namespace UniversityHelper.Core.BrokerSupport.Extensions;
 
 public static class HealthCheckExtensions
 {

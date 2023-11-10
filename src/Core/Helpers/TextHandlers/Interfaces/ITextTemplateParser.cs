@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.Attributes;
+﻿using UniversityHelper.Core.Attributes;
 using System.Collections.Generic;
 
-namespace HerzenHelper.Core.Helpers.TextHandlers.Interfaces;
+namespace UniversityHelper.Core.Helpers.TextHandlers.Interfaces;
 
 [AutoInject]
 public interface ITextTemplateParser

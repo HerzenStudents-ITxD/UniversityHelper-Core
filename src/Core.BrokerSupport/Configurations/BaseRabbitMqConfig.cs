@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
-using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Core.BrokerSupport.Middlewares.Token;
+﻿using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
+using UniversityHelper.Core.BrokerSupport.Attributes;
+using UniversityHelper.Core.BrokerSupport.Middlewares.Token;
 using System;
 
-namespace HerzenHelper.Core.BrokerSupport.Configurations;
+namespace UniversityHelper.Core.BrokerSupport.Configurations;
 
 /// <summary>
 /// Base configuration class for RabbitMQ.

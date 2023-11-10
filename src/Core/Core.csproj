@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-      <Version>2.0.1</Version>
+      <Version>2.0.2</Version>
 
       <TargetFramework>net7.0</TargetFramework>
 
-      <AssemblyName>HerzenHelper.Core</AssemblyName>
-      <RootNamespace>HerzenHelper.Core</RootNamespace>
+      <AssemblyName>UniversityHelper.Core</AssemblyName>
+      <RootNamespace>UniversityHelper.Core</RootNamespace>
       <IsPackable>true</IsPackable>
       <IncludeSymbols>true</IncludeSymbols>
       <SymbolPackageFormat>snupkg</SymbolPackageFormat>

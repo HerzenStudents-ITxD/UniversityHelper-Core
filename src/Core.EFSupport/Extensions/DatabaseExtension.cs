@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HerzenHelper.Core.EFSupport.Extensions;
+namespace UniversityHelper.Core.EFSupport.Extensions;
 
 public static class DatabaseExtension
 {

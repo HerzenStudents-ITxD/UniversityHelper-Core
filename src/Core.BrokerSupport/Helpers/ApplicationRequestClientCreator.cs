@@ -1,10 +1,10 @@
-﻿using HerzenHelper.Core.BrokerSupport.Configurations;
+﻿using UniversityHelper.Core.BrokerSupport.Configurations;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace HerzenHelper.Core.BrokerSupport.Helpers;
+namespace UniversityHelper.Core.BrokerSupport.Helpers;
 
 public static class ApplicationRequestClientCreator
 {

@@ -1,11 +1,11 @@
-﻿using HerzenHelper.Core.Extensions;
+﻿using UniversityHelper.Core.Extensions;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.CustomModelBinderProviders.Binders;
+namespace UniversityHelper.Core.CustomModelBinderProviders.Binders;
 
 public class StringTrimmerBinder : IModelBinder
 {

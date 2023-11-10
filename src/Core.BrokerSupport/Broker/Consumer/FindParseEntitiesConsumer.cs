@@ -1,11 +1,11 @@
-﻿using HerzenHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Requests;
-using HerzenHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Responses;
+﻿using UniversityHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Requests;
+using UniversityHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Responses;
 using MassTransit;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.Broker.Consumer;
+namespace UniversityHelper.Core.BrokerSupport.Broker.Consumer;
 
 public class FindParseEntitiesConsumer : IConsumer<IFindParseEntitiesRequest>
 {

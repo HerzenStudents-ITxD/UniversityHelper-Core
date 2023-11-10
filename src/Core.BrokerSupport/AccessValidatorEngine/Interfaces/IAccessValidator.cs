@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
-using HerzenHelper.Core.Attributes;
+﻿using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
+using UniversityHelper.Core.Attributes;
 using System;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+namespace UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
 
 /// <summary>
 /// Provides access validation methods to check whether user is an administrator

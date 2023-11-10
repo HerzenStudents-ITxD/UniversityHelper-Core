@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.EFSupport.Provider;
+namespace UniversityHelper.Core.EFSupport.Provider;
 
 /// <summary>
 /// Base data provider interface.

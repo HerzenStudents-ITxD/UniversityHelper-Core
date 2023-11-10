@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Requests;
+﻿namespace UniversityHelper.Core.BrokerSupport.Attributes.ParseEntity.Models.Requests;
 
 public interface IFindParseEntitiesRequest
 {

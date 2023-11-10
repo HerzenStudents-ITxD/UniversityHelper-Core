@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.BrokerSupport.Middlewares.Token;
+﻿namespace UniversityHelper.Core.BrokerSupport.Middlewares.Token;
 
 /// <summary>
 /// The DTO model is a binding the request internal model of consumer for RabbitMQ.

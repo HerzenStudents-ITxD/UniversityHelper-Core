@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.Core.BrokerSupport.TextTemplateModels;
+namespace UniversityHelper.Core.BrokerSupport.TextTemplateModels;
 
 public class EndpointKeywords
 {

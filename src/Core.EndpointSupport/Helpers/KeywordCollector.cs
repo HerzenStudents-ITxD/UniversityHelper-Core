@@ -1,10 +1,10 @@
-﻿using HerzenHelper.Core.EndpointSupport.Attributes;
+﻿using UniversityHelper.Core.EndpointSupport.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace HerzenHelper.Core.EndpointSupport.Helpers;
+namespace UniversityHelper.Core.EndpointSupport.Helpers;
 
 public static class KeywordCollector
 {

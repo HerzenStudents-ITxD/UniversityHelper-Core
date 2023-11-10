@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.Core.Validators.Interfaces;
+namespace UniversityHelper.Core.Validators.Interfaces;
 
 [AutoInject]
 public interface IImageExtensionValidator : IValidator<string>

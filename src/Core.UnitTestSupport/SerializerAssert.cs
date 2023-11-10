@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Text.Json;
 
-namespace HerzenHelper.Core.UnitTestSupport;
+namespace UniversityHelper.Core.UnitTestSupport;
 public static class SerializerAssert
 {
   public static void AreEqual(object expected, object result)

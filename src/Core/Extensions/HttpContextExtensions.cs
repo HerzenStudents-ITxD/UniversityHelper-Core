@@ -1,8 +1,8 @@
-﻿using HerzenHelper.Core.Constants;
+﻿using UniversityHelper.Core.Constants;
 using Microsoft.AspNetCore.Http;
 using System;
 
-namespace HerzenHelper.Core.Extensions;
+namespace UniversityHelper.Core.Extensions;
 
 public static class HttpContextExtensions
 {

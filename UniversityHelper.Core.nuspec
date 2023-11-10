@@ -1,23 +1,24 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>HerzenHelper.Core</id>
-    <version>2.0.1</version>
-    <title>HerzenHelper.Core</title>
-    <authors>HerzenHelper Team</authors>
-    <owners>HerzenHelper Team</owners>
-    <projectUrl>https://github.com/herzen-helper/HerzenHelper-Core</projectUrl>
+    <id>UniversityHelper.Core</id>
+    <version>2.0.2</version>
+    <title>UniversityHelper.Core</title>
+    <authors>UniversityHelper Team</authors>
+    <owners>UniversityHelper Team</owners>
+    <projectUrl>https://github.com/herzen-helper/UniversityHelper-Core</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Library used in the HerzenHelper project.</description>
+    <description>Library used in the UniversityHelper project.</description>
     <releaseNotes>
-      2.0.1 - Update nuget workflow.
+      2.0.2 - Update workspace.
 
       Previous versions:
-      2.0.0 - Initial HerzenHelper project.
+      2.0.1 - Update nuget workflow.
+      2.0.0 - Initial UniversityHelper project.
       1.0.X - Other project.
     </releaseNotes>
-    <copyright>Copyright © HerzenHelper</copyright>
-    <tags>HerzenHelper</tags>
+    <copyright>Copyright © UniversityHelper</copyright>
+    <tags>UniversityHelper</tags>
     <dependencies>
       <group targetFramework="net7.0">
         <dependency id="MediatR" version="12.1.1" />
@@ -33,7 +34,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="artifacts\core\HerzenHelper.Core.dll" target="lib\net7.0" />
-    <file src="artifacts\core\HerzenHelper.Core.pdb" target="lib\net7.0" />
+    <file src="artifacts\core\UniversityHelper.Core.dll" target="lib\net7.0" />
+    <file src="artifacts\core\UniversityHelper.Core.pdb" target="lib\net7.0" />
   </files>
 </package>

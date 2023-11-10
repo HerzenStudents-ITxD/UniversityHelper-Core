@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
+namespace UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
 
 public interface ICheckCommunityManagerRequest
 {

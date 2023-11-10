@@ -1,5 +1,5 @@
-﻿using HerzenHelper.Core.BrokerSupport.Configurations;
-using HerzenHelper.Core.Configurations;
+﻿using UniversityHelper.Core.BrokerSupport.Configurations;
+using UniversityHelper.Core.Configurations;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -8,7 +8,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.HealthChecks;
+namespace UniversityHelper.Core.BrokerSupport.HealthChecks;
 
 public class RabbitMqHealthCheck : IHealthCheck
 {

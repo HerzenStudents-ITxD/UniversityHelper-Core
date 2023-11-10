@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HerzenHelper.Core.RedisSupport.Extensions;
+namespace UniversityHelper.Core.RedisSupport.Extensions;
 
 public static class RedisExtension
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.Core.EndpointSupport.Constants.Endpoints;
+namespace UniversityHelper.Core.EndpointSupport.Constants.Endpoints;
 
 static public class UserServiceEndpoints
 {

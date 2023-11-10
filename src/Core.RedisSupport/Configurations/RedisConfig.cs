@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.RedisSupport.Configurations;
+﻿namespace UniversityHelper.Core.RedisSupport.Configurations;
 
 public class RedisConfig
 {

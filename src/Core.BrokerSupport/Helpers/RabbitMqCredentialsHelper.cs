@@ -1,8 +1,8 @@
-﻿using HerzenHelper.Core.BrokerSupport.Configurations;
+﻿using UniversityHelper.Core.BrokerSupport.Configurations;
 using Serilog;
 using System;
 
-namespace HerzenHelper.Core.BrokerSupport.Helpers;
+namespace UniversityHelper.Core.BrokerSupport.Helpers;
 
 public class RabbitMqCredentialsHelper
 {

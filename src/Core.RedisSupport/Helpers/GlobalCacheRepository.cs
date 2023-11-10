@@ -1,10 +1,10 @@
-﻿using HerzenHelper.Core.RedisSupport.Helpers.Interfaces;
+﻿using UniversityHelper.Core.RedisSupport.Helpers.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.RedisSupport.Helpers;
+namespace UniversityHelper.Core.RedisSupport.Helpers;
 
 public class GlobalCacheRepository : IGlobalCacheRepository
 {

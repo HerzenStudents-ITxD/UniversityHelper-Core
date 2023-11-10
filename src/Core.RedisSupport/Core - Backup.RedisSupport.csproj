@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>2.0.1</Version>
+
+    <TargetFramework>net7.0</TargetFramework>
+
+    <AssemblyName>UniversityHelper.Core.RedisSupport</AssemblyName>
+    <RootNamespace>UniversityHelper.Core.RedisSupport</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UniversityHelper.Core" Version="2.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>

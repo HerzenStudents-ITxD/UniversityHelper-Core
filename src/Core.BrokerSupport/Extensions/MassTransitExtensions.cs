@@ -1,5 +1,5 @@
-﻿using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Core.BrokerSupport.Configurations;
+﻿using UniversityHelper.Core.BrokerSupport.Attributes;
+using UniversityHelper.Core.BrokerSupport.Configurations;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace HerzenHelper.Core.BrokerSupport.Extensions;
+namespace UniversityHelper.Core.BrokerSupport.Extensions;
 
 public static class MassTransitExtensions
 {

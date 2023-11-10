@@ -3,7 +3,7 @@ using StackExchange.Redis;
 using System;
 using System.Net;
 
-namespace HerzenHelper.Core.RedisSupport.Helpers;
+namespace UniversityHelper.Core.RedisSupport.Helpers;
 
 public static class FlushRedisDbHelper
 {

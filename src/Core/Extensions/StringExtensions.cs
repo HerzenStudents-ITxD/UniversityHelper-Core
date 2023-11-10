@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace HerzenHelper.Core.Extensions;
+namespace UniversityHelper.Core.Extensions;
 
 public static class StringExtensions
 {

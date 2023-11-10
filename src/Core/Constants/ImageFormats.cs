@@ -1,6 +1,6 @@
 ﻿using System.Collections.Immutable;
 
-namespace HerzenHelper.Core.Constants;
+namespace UniversityHelper.Core.Constants;
 
 public static class ImageFormats
 {

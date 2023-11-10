@@ -1,13 +1,13 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
-using HerzenHelper.Core.Exceptions.Models;
+using UniversityHelper.Core.Exceptions.Models;
 using MediatR;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.Behaviours;
+namespace UniversityHelper.Core.Behaviours;
 
 public class ValidationPipelineBehaviour<TRequest, TResponse>
   : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>

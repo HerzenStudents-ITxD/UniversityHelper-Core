@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.Extensions;
+﻿using UniversityHelper.Core.Extensions;
 using System;
 
-namespace HerzenHelper.Core.Middlewares.ApiInformation;
+namespace UniversityHelper.Core.Middlewares.ApiInformation;
 
 public abstract class BaseApiInfo
 {

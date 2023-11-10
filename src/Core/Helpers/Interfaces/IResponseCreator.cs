@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+﻿using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 using System.Collections.Generic;
 using System.Net;
 
-namespace HerzenHelper.Core.Helpers.Interfaces;
+namespace UniversityHelper.Core.Helpers.Interfaces;
 
 [AutoInject]
 public interface IResponseCreator

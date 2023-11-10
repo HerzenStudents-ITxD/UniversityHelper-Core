@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace HerzenHelper.Core.EndpointSupport.Attributes;
+namespace UniversityHelper.Core.EndpointSupport.Attributes;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class KeywordAttribute : Attribute

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.Validators;
+namespace UniversityHelper.Core.Validators;
 
 public abstract class BaseEditRequestValidator<T> : AbstractValidator<JsonPatchDocument<T>> where T : class
 {

@@ -1,15 +1,15 @@
-﻿using HerzenHelper.Core.BrokerSupport.Configurations;
-using HerzenHelper.Core.BrokerSupport.TextTemplateModels;
-using HerzenHelper.Core.BrokerSupport.TextTemplateModels.Requests;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Core.EndpointSupport.Helpers;
+﻿using UniversityHelper.Core.BrokerSupport.Configurations;
+using UniversityHelper.Core.BrokerSupport.TextTemplateModels;
+using UniversityHelper.Core.BrokerSupport.TextTemplateModels.Requests;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Core.EndpointSupport.Helpers;
 using Microsoft.AspNetCore.Builder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.EndpointSupport.Broker;
+namespace UniversityHelper.Core.EndpointSupport.Broker;
 
 public static class KeywordSender
 {

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HerzenHelper.Core.OpenApi.SchemaFilters;
+namespace UniversityHelper.Core.OpenApi.SchemaFilters;
 
 public class JsonPatchDocumentSchemaFilter : ISchemaFilter
 {

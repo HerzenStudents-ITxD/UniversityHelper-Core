@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.Enums;
+﻿using UniversityHelper.Core.Enums;
 using System;
 
-namespace HerzenHelper.Core.Attributes;
+namespace UniversityHelper.Core.Attributes;
 
 [AttributeUsage(AttributeTargets.Interface)]
 public class AutoInjectAttribute : Attribute

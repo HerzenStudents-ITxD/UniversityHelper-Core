@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.RedisSupport.Constants;
+﻿namespace UniversityHelper.Core.RedisSupport.Constants;
 
 public static class Cache
 {

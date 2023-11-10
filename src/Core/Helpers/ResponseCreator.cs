@@ -1,10 +1,10 @@
-﻿using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+﻿using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Net;
 
-namespace HerzenHelper.Core.Helpers;
+namespace UniversityHelper.Core.Helpers;
 
 public class ResponseCreator : IResponseCreator
 {

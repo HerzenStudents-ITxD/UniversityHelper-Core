@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.Exceptions.Models;
+﻿using UniversityHelper.Core.Exceptions.Models;
 using System;
 
-namespace HerzenHelper.Core.Helpers;
+namespace UniversityHelper.Core.Helpers;
 
 public static class GetEnvironmentVariableHelper
 {

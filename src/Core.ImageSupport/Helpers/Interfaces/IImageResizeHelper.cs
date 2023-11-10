@@ -1,7 +1,7 @@
-﻿using HerzenHelper.Core.Attributes;
+﻿using UniversityHelper.Core.Attributes;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.ImageSupport.Helpers.Interfaces;
+namespace UniversityHelper.Core.ImageSupport.Helpers.Interfaces;
 
 /// <summary>
 /// Represents interface for a helper.

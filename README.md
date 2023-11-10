@@ -1,20 +1,20 @@
-# HerzenHelper-Core
-Common library HerzenHelper project
+# UniversityHelper-Core
+Common library UniversityHelper project
 
-## HerzenHelper.Core 
-Common library for HerzenHelper services (attributes, configurations, exceptions, constants, autoinject, extensions, helpers, middlewares, openapi, requests and responses, validators)
+## UniversityHelper.Core 
+Common library for UniversityHelper services (attributes, configurations, exceptions, constants, autoinject, extensions, helpers, middlewares, openapi, requests and responses, validators)
 
-## HerzenHelper.Core.BrokerSupport 
-Common library for RabbitMq and HealthCheck support in HerzenHelper services (custom httpcontext, common requests, custom RabbitMq attributes, common consumers and wrapper for broker, HealthCheck exceptions and configuration for RabbitMq, helpers, check token middleware)
+## UniversityHelper.Core.BrokerSupport 
+Common library for RabbitMq and HealthCheck support in UniversityHelper services (custom httpcontext, common requests, custom RabbitMq attributes, common consumers and wrapper for broker, HealthCheck exceptions and configuration for RabbitMq, helpers, check token middleware)
 
-## HerzenHelper.Core.EFSupport
-Common library for Entity Framework Core extensions in HerzenHelper services
+## UniversityHelper.Core.EFSupport
+Common library for Entity Framework Core extensions in UniversityHelper services
 
-## HerzenHelper.Core.EndpointSupport
-Common library for ??? in HerzenHelper services
+## UniversityHelper.Core.EndpointSupport
+Common library for ??? in UniversityHelper services
 
-## HerzenHelper.Core.ImageSupport
-Common library for image resize and compress in HerzenHelper services
+## UniversityHelper.Core.ImageSupport
+Common library for image resize and compress in UniversityHelper services
 
-## HerzenHelper.Core.RedisSupport
-Common library for Redis extensions in HerzenHelper services (configurations, constants, extensions, helpers)
+## UniversityHelper.Core.RedisSupport
+Common library for Redis extensions in UniversityHelper services (configurations, constants, extensions, helpers)

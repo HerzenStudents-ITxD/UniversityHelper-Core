@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
+﻿namespace UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
 
 public enum ManagerSource
 {

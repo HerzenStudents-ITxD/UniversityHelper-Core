@@ -1,5 +1,5 @@
-﻿using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Enums;
+﻿using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Enums;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace HerzenHelper.Core.Extensions;
+namespace UniversityHelper.Core.Extensions;
 
 /// <summary>
 /// Helper class for services extensions.
@@ -29,7 +29,7 @@ public static class ServiceCollectionExtension
     try
     {
       var asmPath = Path.GetDirectoryName(Assembly.GetCallingAssembly().Location);
-      var files = Directory.GetFiles(asmPath, "*HerzenHelper*.dll");
+      var files = Directory.GetFiles(asmPath, "*UniversityHelper*.dll");
 
       List<Assembly> assemblies = new();
 

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HerzenHelper.Core.FluentValidationExtensions;
+namespace UniversityHelper.Core.FluentValidationExtensions;
 
 /// <summary>
 /// Provides extension methods for FluentValidation package.

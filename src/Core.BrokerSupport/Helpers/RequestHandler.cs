@@ -1,4 +1,4 @@
-﻿using HerzenHelper.Core.BrokerSupport.Broker;
+﻿using UniversityHelper.Core.BrokerSupport.Broker;
 using MassTransit;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.Helpers;
+namespace UniversityHelper.Core.BrokerSupport.Helpers;
 
 public static class RequestHandler
 {

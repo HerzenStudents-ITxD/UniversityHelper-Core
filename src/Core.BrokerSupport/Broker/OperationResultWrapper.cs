@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.Core.BrokerSupport.Broker;
+namespace UniversityHelper.Core.BrokerSupport.Broker;
 
 /// <summary>
 /// Wraps the returned object from a function in OperationResult.

@@ -1,11 +1,11 @@
-﻿using HerzenHelper.Core.Helpers;
+﻿using UniversityHelper.Core.Helpers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using StackExchange.Redis;
 using System;
 
-namespace HerzenHelper.Core.RedisSupport.Extensions;
+namespace UniversityHelper.Core.RedisSupport.Extensions;
 
 public static class RedisServiceExtension
 {

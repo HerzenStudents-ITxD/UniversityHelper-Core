@@ -1,10 +1,10 @@
-﻿using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.CustomModelBinderProviders.Binders;
+﻿using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.CustomModelBinderProviders.Binders;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Reflection;
 
-namespace HerzenHelper.Core.CustomModelBinderProviders;
+namespace UniversityHelper.Core.CustomModelBinderProviders;
 
 public class CustomModelBinderProvider : IModelBinderProvider
 {

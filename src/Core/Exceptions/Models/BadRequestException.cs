@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace HerzenHelper.Core.Exceptions.Models;
+namespace UniversityHelper.Core.Exceptions.Models;
 
 /// <summary>
 /// Indicates that the server cannot or will not process the request due to an apparent client error.

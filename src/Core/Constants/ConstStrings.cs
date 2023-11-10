@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.Core.Constants;
+﻿namespace UniversityHelper.Core.Constants;
 
 public static class ConstStrings
 {

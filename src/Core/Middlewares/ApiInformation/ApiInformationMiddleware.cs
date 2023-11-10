@@ -3,7 +3,7 @@ using System;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.Middlewares.ApiInformation;
+namespace UniversityHelper.Core.Middlewares.ApiInformation;
 
 public class ApiInformationMiddleware
 {

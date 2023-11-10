@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HerzenHelper.Core.BrokerSupport.Middlewares.Token;
+namespace UniversityHelper.Core.BrokerSupport.Middlewares.Token;
 
 /// <summary>
 /// Check token middleware configuration.

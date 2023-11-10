@@ -1,8 +1,8 @@
-﻿using HerzenHelper.Core.Helpers.TextHandlers.Interfaces;
+﻿using UniversityHelper.Core.Helpers.TextHandlers.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.Core.Helpers.TextHandlers;
+namespace UniversityHelper.Core.Helpers.TextHandlers;
 
 public class TextTemplateParser : ITextTemplateParser
 {

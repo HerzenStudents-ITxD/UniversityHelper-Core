@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace HerzenHelper.Core.Responses;
+namespace UniversityHelper.Core.Responses;
 
 public class OperationResultResponse<T>
 {

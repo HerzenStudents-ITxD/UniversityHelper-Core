@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.Core.Exceptions.Models;
+namespace UniversityHelper.Core.Exceptions.Models;
 
 public class ErrorResponse
 {

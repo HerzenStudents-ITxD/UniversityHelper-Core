@@ -1,9 +1,9 @@
-﻿using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Extensions;
+﻿using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Enum;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Requests;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Extensions;
 using MassTransit;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core.BrokerSupport.AccessValidatorEngine;
+namespace UniversityHelper.Core.BrokerSupport.AccessValidatorEngine;
 
 public class AccessValidator : IAccessValidator
 {

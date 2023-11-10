@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.Core.Configurations;
+namespace UniversityHelper.Core.Configurations;
 
 public class SwaggerConfiguration
 {

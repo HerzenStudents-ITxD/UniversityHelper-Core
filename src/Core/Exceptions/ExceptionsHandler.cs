@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using HerzenHelper.Core.Exceptions.Models;
+using UniversityHelper.Core.Exceptions.Models;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace HerzenHelper.Core;
+namespace UniversityHelper.Core;
 
 /// <summary>
 /// Represents exception handler middleware. Provides method for handle exceptions.

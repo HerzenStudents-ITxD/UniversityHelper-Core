@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HerzenHelper.Core.BrokerSupport.TextTemplateModels.Requests;
+namespace UniversityHelper.Core.BrokerSupport.TextTemplateModels.Requests;
 
 public interface ICreateKeywordsRequest
 {

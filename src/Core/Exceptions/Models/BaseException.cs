@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HerzenHelper.Core.Exceptions.Models;
+namespace UniversityHelper.Core.Exceptions.Models;
 
 /// <summary>
 /// Indicates client or server error.

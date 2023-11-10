@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using System;
 
-namespace HerzenHelper.Core.BrokerSupport.Attributes;
+namespace UniversityHelper.Core.BrokerSupport.Attributes;
 
 [AttributeUsage(AttributeTargets.Property)]
 public class AutoInjectRequestAttribute : Attribute
