@@ -2,6 +2,8 @@
 
 public enum ManagerSource
 {
+  University,
+  Community,
   Event,
-  Community
+  Subgroup,
 }
