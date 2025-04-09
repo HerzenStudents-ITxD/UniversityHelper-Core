@@ -1,29 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <Version>2.0.2</Version>
-
-        <TargetFramework>net7.0</TargetFramework>
-
-        <AssemblyName>UniversityHelper.Core.EndpointSupport</AssemblyName>
-        <RootNamespace>UniversityHelper.Core.EndpointSupport</RootNamespace>
-        <IsPackable>true</IsPackable>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-
-        <GenerateDocumentationFile>false</GenerateDocumentationFile>
-
-        <OutputType>Library</OutputType>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="UniversityHelper.Core" Version="2.0.2" />
-        <PackageReference Include="UniversityHelper.Core.BrokerSupport" Version="2.0.2" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Core.BrokerSupport\Core.BrokerSupport.csproj" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <Version>3.0.1</Version>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>UniversityHelper.Core.EndpointSupport</AssemblyName>
+    <RootNamespace>UniversityHelper.Core.EndpointSupport</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="UniversityHelper.Core" Version="3.0.1" />
+    <PackageReference Include="UniversityHelper.Core.BrokerSupport" Version="3.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.BrokerSupport\Core.BrokerSupport.csproj" />
+  </ItemGroup>
 </Project>
